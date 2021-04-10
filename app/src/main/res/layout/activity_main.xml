@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARA PASANG WIDGET KE LAYAR UTAMA : \n\n
+        1. klik dan tahan pada halaman utama yang kosong untuk menampilkan opsi widget.\n\n
+        2. pilih opsi WIDGET.\n\n
+        3. kemudian scroll kebawah dan cari widget yang bernama WIDGET COVID 19.\n\n
+        4. klik dan tahan pada icon WIDGET COVID 19 dan Letakkan pada posisi yang kosong pada layar utama.\n\n
+        5. jika masih gagal memasang widget, silahkan cari tutorial pasang widget sesuai merk smartphone yang anda gunakan.\n\n\n\n
+
+        MENGUBAH UKURAN WIDGET :\n\n
+        1. Klik dan tahan pada tampilan widget.\n\n
+        2. kemudian akan muncul titik tiap sisi widget.\n\n
+        3. tarik pada titik tersebut sesuai keinginan.\n\n\n\n
+
+        NOTE : Jika Muncul GAGAL UPDATE pada Widget, silahkan klik tombol refresh(warna hijau) dan pastikan koneksi internet lancar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>
